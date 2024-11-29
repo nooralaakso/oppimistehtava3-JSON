@@ -1,4 +1,4 @@
-fetch('http://gis.vantaa.fi/rest/tyopaikat/v1/Varhaiskasvatus')
+fetch('https://gis.vantaa.fi/rest/tyopaikat/v1/Varhaiskasvatus')
     // Muunnetaan vastaus JSON muotoon
     .then(function (response) {
         return response.json();
